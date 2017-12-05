@@ -1,0 +1,68 @@
+body {
+  background: none repeat scroll 0 0 #73CFF1;
+}
+#mainWrapper {
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin: 0 auto;
+  min-height: 770px;
+  width: 800px;
+}
+.title {
+  background: url("../images/regBg.png") no-repeat scroll 0 0 transparent;
+  height: 56px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 61px 0 0 52px;
+  width: 720px;
+}
+.title h2 {
+  color: #1C84AF;
+  font: 26px/43px "MicroSoft YaHei","SimHei";
+  margin: 0 auto;
+}
+#mainWrapper .cWrap {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 720px;
+}
+.cWrap h3 {
+  font-weight: normal;
+}
+.cWrap .notes {
+  color: #999999;
+  padding: 3px 0 12px;
+  padding-bottom: 30px;
+}
+#mainWrapper th {
+  padding: 0 5px 0 102px;
+  text-align: right;
+}
+#mainWrapper th, #mainWrapper td {
+  font-size: 14px;
+  font-weight: normal;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+#mainWrapper td {
+  display: block;
+  line-height: 21px;
+  min-height: 40px;
+  position: relative;
+}
+#mainWrapper .cWrap .inputTxt {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #7F9CBA;
+  font-size: 20px;
+  height: 25px;
+  vertical-align: text-bottom;
+  width: 240px;
+}
+.btn {
+  cursor: pointer;
+  font-family: "Simsun";
+  font-size: 12px;
+  margin-top: 18px;
+  padding: 4px 0 3px;
+  width: 160px;
+  height: 40px;
+}

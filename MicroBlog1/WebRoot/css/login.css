@@ -1,0 +1,255 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+u, em, i {
+  font-style: normal;
+  text-decoration: none;
+}
+body {
+  background-color: #EDEDED;
+  background-position: 0 -36px;
+  background-rsepeat: repeat-x;
+  color: #333333;
+  font: 12px/1.75 Tahoma,Arial;
+  height: 100%;
+}
+#headWrap {
+  background-position: center top;
+  height: 181px;
+  width: 100%;
+}
+.headWrap_cnt{
+	height: 181px;
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+  background-image:url(../images/banner.jpg);
+  background-repeat: no-repeat;
+}
+.regBtnBox {
+  display: inline;
+  float: right;
+  height: 62px;
+  margin: 8px 2px 0 0;
+  width: 170px;
+}
+.regBtn {
+  display: block;
+  height: 62px;
+  line-height: 20em;
+  overflow: hidden;
+  width: 170px;
+}
+a.regBtn{
+	background-image:url(../images/reg1.jpg);
+}
+a.regBtn:hover{
+	background-image:url(../images/reg2.jpg);
+}
+#mainWrapper {
+  background: none repeat scroll 0 0 #FFFFFF;
+  width: 100%;
+}
+#mainWrapper .wrapper {
+  padding: 15px 0;
+	background: none repeat scroll 0 0 #FFFFFF;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.rightBox {
+  float: right;
+  width: 382px;
+}
+.loginBox {
+	background: none repeat scroll 0 0 #FFFDDD;
+	border: 1px solid #F1E8B7;
+	margin-bottom: 10px;
+	min-height: 330px;
+	overflow: visible;
+	padding: 12px 0;
+	position: relative;
+	width: 380px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#login {
+  margin: 0 auto;
+  width: 370px;
+}
+#login ul, #login li {
+  margin: 0;
+  padding: 0;
+}
+#login ul li {
+  clear: both;
+  list-style-type: none;
+  padding-bottom: 8px;
+  width: 100%;
+	height:auto;
+}
+#login ul li span {
+  float: left;
+  padding-right: 5px;
+  padding-top: 7px;
+  text-align: right;
+  width: 83px;
+}
+.inputstyle {
+  border: 1px solid #7F9DB9;
+  font-size: 14px;
+  height: 17px;
+  outline: medium none;
+  padding: 4px 5px 6px;
+  vertical-align: middle;
+  width: 190px;
+}
+.item{
+	font-size: 14px;
+}
+.login_button {
+  margin-top: 15px;
+  padding-left: 88px;
+}
+.btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 0;
+  width: 97px;
+}
+.leftBox {
+	float: left;
+	position: relative;
+	width: 565px;
+}
+.wording {
+	height: 260px;
+	overflow: hidden;
+	padding: 5px 15px;
+	position: relative;
+	width: 535px;
+}
+.wording li {
+  border-bottom: 1px dotted #D8D8D8;
+  clear: both;
+  overflow: hidden;
+  padding: 10px 0;
+	height: 67px;
+}
+ul, li {
+  list-style: none outside none;
+	
+}
+.pic {
+  float: left;
+  padding: 3px 0;
+  width: 62px;
+}
+.pic img {
+  border: 1px solid #D2D2D2;
+  height: 50px;
+  padding: 1px;
+  width: 50px;
+}
+.msgBox{
+  font-size: 14px;
+}
+.msgBox strong {
+  font-weight: normal;
+}
+.pubInfo{
+  color: #999999;
+  font-size: 12px;
+  line-height: 20px;
+}
+.leftBoxBtm {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-top: 2px solid #E7E7E7;
+
+  top: 300px;
+}
+
+.people {
+  float: left;
+  padding-left: 10px;
+  width: 310px;
+}
+.people h2 {
+  margin-bottom: 8px;
+}
+.people ul li {
+  float: left;
+  height: 65px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  padding: 0 4px;
+  text-align: center;
+  width: 50px;
+}
+.people ul li img {
+  border: 1px solid #D2D2D2;
+  display: block;
+  height: 40px;
+  margin: 0 auto;
+  padding: 1px;
+  width: 40px;
+}
+a {
+  color: #2B4A78;
+  text-decoration: none;
+}
+.rank {
+  border-left: 1px solid #E7E7E7;
+  float: right;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0 5px 5px 20px;
+  width: 215px;
+}
+.rank h2 {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 6px;
+}
+.title {
+  color: #333333;
+  font-family: "MicroSoft YaHei","Simsun";
+}
+.left {
+  float: left;
+}
+strong {
+  font-weight: 800;
+}
+.right {
+  color: #999999;
+  float: right;
+}
+.rank li {
+  float: left;
+  height: 29px;
+  line-height: 29px;
+  position: relative;
+  width: 100%;
+}
+.rank li a {
+  float: left;
+  margin-right: 58px;
+}
+.rank li span {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 58px;
+}
+
+.clear{
+	clear:both;
+}
+h2{
+	font-size:12px;
+}
